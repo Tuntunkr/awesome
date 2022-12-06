@@ -1,0 +1,49 @@
+.blogCard__container {
+    padding: 20px;
+    width: 100%;
+    overflow: hidden;
+    /* max-width: 384px; */
+    margin-bottom: 20px;
+  }
+  
+  .blogCard__layout {
+    display: flex;
+  }
+  
+  .blogCard__top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .blogCard__image {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+  }
+  
+  .blogCard__socials {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .blogCard__time {
+    color: rgb(190, 170, 170);
+  }
+  
+  .blogCard__icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+  }
+  
+  .blogCard__icon__share {
+    color: gray;
+  }
+
+.blogCard__container :hover{
+  transition: 1.5s ;
+}
+  

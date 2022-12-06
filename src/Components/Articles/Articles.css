@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+.card-img {
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+    width: 70%;
+    padding: 5px;
+
+}
+
+
+/*   
+  main {
+    background-color: #EDFDED;
+    max-width: 1200px;
+    margin: auto;
+    min-height: 100vw;
+  } */
+  
+  h2 {
+    padding: 20px 0px;
+    text-align: center;
+  }
+  
+  .card-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin:  0px 10px;
+  }
+  
+  .card {
+    width: 320px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #d7d7d7;
+    border-radius: 2px;
+    /* box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15); */
+    background-color: white;
+    box-shadow: 0 .2rem .6rem #0003;
+    transition: .5s ease-in-out;
+  }
+  
+
+.card:hover {
+  border: .1rem solid #00dd53;
+  transform: scale(1.05);
+}
+  .card > img {
+    border-radius: 2px;
+    max-width: 100%;
+    margin-bottom: 10px;
+    height: auto;
+  }
+  
+  .card h3 {
+    color: purple;
+  }
+  
+  .card p {
+    color: #757575;
+    line-height: 1.5;
+    padding-top: 10px;
+  }
+  
+
+  /*  */
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 340px;
+  margin: 0 auto;
+}
+/* @media screen and (min-width: 768px ) {
+  max-width: 1200px
+} */
+
+.card{
+  position: relative;
+  flex: 1 1 100%;
+  margin: 31px 0;
+  padding: 20px;
+  background: lighten(#f8f8f8, 3%);
+
+  /* @media screen and (min-width: 768px) {
+    flex-basis: calc(33.33% - (#{$grid-gutter * 2} + #{$card-padding * 2}));
+    margin: 0 $grid-gutter;
+  } */
+}
+
+.card__thumb {
+  overflow: hidden;
+}
+
+.card__img {
+  margin: 20px 20px 0;
+}
+  img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    vertical-align: middle;
+    box-sizing: border-box;
+  }
+
+
+.card__desc {
+  margin-top: 20px;
+}
+
+
+.card__two .card__img {
+  padding: 20px;
+}
+
+
+.card__one {
+  transition: transform .5s;
+
+}
+ 
+.card__one :hover{
+  transform: scale3d(1.006, 1.006, )
+}
+
+
+  /*  */

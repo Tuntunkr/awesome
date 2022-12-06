@@ -1,0 +1,79 @@
+#mainNav nav {
+    padding: 20px;
+  }
+  
+  #mainNav .logo {
+    width: 200px;
+  }
+  
+  #mainNav .nav-link {
+    padding: 0 2vw;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #8d8d8d;
+    letter-spacing: 0.4px;
+       -webkit-transition: all 500ms linear;
+       -ms-transition: all 500ms linear;
+       transition: all 500ms linear;
+   }
+
+  #mainNav .nav-link:hover {
+    font-weight: 500;
+    color: #000;
+  }
+  
+  #mainNav .nav-link.active {
+    font-weight: 500;
+    color: #000;
+  }
+  
+  /* #mainNav .nav-link::after {
+    content: '•';
+       color: #25c2a0;
+       padding-left: 2px;
+  } */
+  
+  #mainNav .btn-1{
+    width: 303px;
+  }
+  /*  */.navbar_link_selected {
+    font-weight: 500;
+    color: #000;
+}
+
+.navbar_link_selected::after {
+    content: '•';
+    color: #25c2a0;
+    padding-left: 2px;
+}
+  
+  /*  */
+
+/* Blogs Section  */
+
+ 
+#mainNav .searchBar .input {
+    width: 303px;
+    padding: 5px 9px 5px 35px;
+    font-size: 18px !important;
+    font-weight: 400;
+    border: 1px solid var(--txtLit);
+    letter-spacing: 0.27px;
+    color: var(--txtMed);
+    outline: none;
+  
+    z-index: 2;
+  }
+  
+ #mainNav .searchBar i {
+    font-size: 18px;
+    position: absolute;
+    top: 40%;
+    /* transform: translateY(-50%); */
+    left: auto;
+    z-index: 5;
+    color: var(--txtMed);
+  }
+  
+
+  

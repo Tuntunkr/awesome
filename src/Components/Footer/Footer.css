@@ -1,0 +1,22 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .footer__left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer__left > p {
+    margin-right: 20px;
+  }
+  
+  .icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 20px;
+  }
+  
